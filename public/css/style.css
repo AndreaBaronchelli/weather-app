@@ -1,0 +1,94 @@
+/* GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #fde49c;
+    min-height: 100vh;
+}
+
+h2 {
+    color: #4c4c6d;
+    font-size: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: #df711b;
+}
+
+/* UTILITIES */
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #64c9cf;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+main {
+    flex-grow: 1;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main #search {
+    outline: none;
+    margin: 5rem 0 2rem;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    padding: 20px;
+    width: 400px;
+    height: 80px;
+    font-size: 25px;
+}
+
+main button {
+    outline: none;
+    margin-bottom: 2rem;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    background-color: #558776;
+    cursor: pointer;
+}
+
+.message {
+    margin-bottom: 1rem;
+    font-size: 30px;
+}
+footer {
+    padding: 1rem 0;
+    background-color: #ffbcbc;
+}
+
+footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
